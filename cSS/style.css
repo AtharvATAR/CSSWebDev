@@ -1,7 +1,7 @@
 :root {
   --primary-font: "Poppins";
   --primary-colour: #cccccc;
-  --primary-backcolour: ;
+  --primary-backcolour: #c4c4c4;
 }
 #header_topbar {
   background-color: #1e2947;
