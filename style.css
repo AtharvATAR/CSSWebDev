@@ -2,12 +2,31 @@
   --primary-font: "Poppins";
   --primary-colour: #cccccc;
   --primary-backcolour: #c4c4c4;
-}
-#header_topbar {
-  background-color: #1e2947;
+  --primary-size: 28px;
 }
 .text {
   font-family: var(--primary-font);
-  font-size: 28px;
+  font-size: var(--primary-size);
   color: var(--primary-colour);
+}
+
+#header_topbar {
+  background-color: #1e2947;
+  overflow: auto;
+}
+
+#header_topbar li {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#header_topbar li:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#header_topbar li.active {
+  background-color: #04aa6d;
+  color: white;
 }
