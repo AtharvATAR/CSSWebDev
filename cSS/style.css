@@ -1,11 +1,13 @@
 :root {
-  --primary-font: "Montserrat";
+  --primary-font: "Poppins";
+  --primary-colour: #cccccc;
+  --primary-backcolour: ;
 }
 #header_topbar {
-  background-color: #6a958f;
+  background-color: #1e2947;
 }
 .text {
   font-family: var(--primary-font);
   font-size: 28px;
-  color: rgb(200, 200, 200);
+  color: var(--primary-colour);
 }
