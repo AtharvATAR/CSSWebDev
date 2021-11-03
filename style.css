@@ -1,32 +1,29 @@
 :root {
-  --primary-font: "Poppins";
   --primary-colour: #cccccc;
   --primary-backcolour: #c4c4c4;
-  --primary-size: 28px;
+  --primary-size: 24px;
+  --primary-fontfamily: "Poppins", sans-serif;
 }
+
+@font-face {
+  font-family: "Poppins";
+  src: url(https://fonts.googleapis.com/css?family=Poppins/);
+}
+
 .text {
-  font-family: var(--primary-font);
+  font-family: var(--primary-fontfamily);
+  font-size: default;
+}
+nav .text {
+  font-family: var(--primary-fontfamily);
   font-size: var(--primary-size);
   color: var(--primary-colour);
 }
 
+.text_bold {
+  font-weight: bold;
+}
+
 #header_topbar {
   background-color: #1e2947;
-  overflow: auto;
-}
-
-#header_topbar li {
-  float: left;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-#header_topbar li:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-#header_topbar li.active {
-  background-color: #04aa6d;
-  color: white;
 }
