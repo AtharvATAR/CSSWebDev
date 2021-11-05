@@ -1,8 +1,14 @@
 :root {
   --primary-colour: #cccccc;
   --primary-backcolour: #c4c4c4;
-  --primary-size: 24px;
+  --primary-size: 39px;
   --primary-fontfamily: "Poppins", sans-serif;
+}
+
+#container {
+  background-image: url("img/file-20210803-22-ek8tkd.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 @font-face {
@@ -15,9 +21,12 @@
   font-size: default;
 }
 nav .text {
-  font-family: var(--primary-fontfamily);
   font-size: var(--primary-size);
   color: var(--primary-colour);
+}
+
+li {
+  font-size: 0px;
 }
 
 .text_bold {
@@ -25,5 +34,49 @@ nav .text {
 }
 
 #header_topbar {
-  background-color: #1e2947;
+  position: absolute;
+  width: 1440px;
+  height: 87px;
+  left: 0px;
+  top: 0px;
+
+  background: #1e2947;
+}
+
+#home_button {
+  position: absolute;
+  width: 120px;
+  height: 59px;
+  left: 902px;
+  top: 14px;
+
+  line-height: 58px;
+
+  color: #ffffff;
+}
+
+#login_button {
+  position: absolute;
+  width: 106px;
+  height: 59px;
+  left: 1060px;
+  top: 14px;
+
+  line-height: 58px;
+
+  color: #ffffff;
+}
+
+#about_button {
+  position: absolute;
+  width: 126px;
+  height: 59px;
+  left: 1203px;
+  top: 14px;
+
+  line-height: 58px;
+
+  /* identical to box height */
+
+  color: #ffffff;
 }
