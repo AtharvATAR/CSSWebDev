@@ -16,11 +16,9 @@
   src: url(https://fonts.googleapis.com/css?family=Poppins/);
 }
 
-.text {
+.header__nav__text {
   font-family: var(--primary-fontfamily);
   font-size: default;
-}
-nav .text {
   font-size: var(--primary-size);
   color: var(--primary-colour);
 }
@@ -33,50 +31,15 @@ li {
   font-weight: bold;
 }
 
-#header_topbar {
-  position: absolute;
-  width: 1440px;
+#header__nav {
+  position: relative;
+  width: 100%;
   height: 87px;
   left: 0px;
   top: 0px;
 
   background: #1e2947;
 }
-
-#home_button {
-  position: absolute;
-  width: 120px;
-  height: 59px;
-  left: 902px;
-  top: 14px;
-
-  line-height: 58px;
-
-  color: #ffffff;
-}
-
-#login_button {
-  position: absolute;
-  width: 106px;
-  height: 59px;
-  left: 1060px;
-  top: 14px;
-
-  line-height: 58px;
-
-  color: #ffffff;
-}
-
-#about_button {
-  position: absolute;
-  width: 126px;
-  height: 59px;
-  left: 1203px;
-  top: 14px;
-
-  line-height: 58px;
-
-  /* identical to box height */
-
-  color: #ffffff;
+#container {
+  background: image("img/file-20210803-22-ek8tkd.png");
 }
